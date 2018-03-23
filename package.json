@@ -1,0 +1,21 @@
+{
+  "name": "issue-webhook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production ode server.js",
+    "dev": "NODE_ENV=development PORT=8080 nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "graphql-request": "^1.5.1",
+    "node-fetch": "^2.1.1",
+    "repeat": "^0.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
